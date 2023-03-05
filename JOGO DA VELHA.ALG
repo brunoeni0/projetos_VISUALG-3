@@ -1,8 +1,8 @@
 algoritmo "jogo da velha"
 var
    v: vetor [ 1..3, 1..3 ] de inteiro
-   x: vetor [1..5] de inteiro
-   o: vetor [1..4] de inteiro
+   x: vetor [1..9] de inteiro
+   o: vetor [1..9] de inteiro
    c, l, n, x1, o1, p, k: inteiro
 inicio
       enquanto p < 9 faca
@@ -34,37 +34,6 @@ inicio
                     escreval(" ")
                fimpara
                escreval("---+---+---+")
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               para c <-
-               
-
-               
-
-               
-               
-               
-               
-               
-               
-
-               
-               
-               
-               
-               
-               
-               
-               
                se (p % 2 = 1) entao
                   escreva("Vai jogar [X] em qual posição? ")
                   leia(x1)
